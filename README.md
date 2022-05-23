@@ -99,7 +99,7 @@ For further reading check out the [CommandSystem](https://github.com/Splamy/TS3A
 |[![Build status](https://ci.appveyor.com/api/projects/status/i7nrhqkbntdhwpxp/branch/master?svg=true)](https://ci.appveyor.com/project/Splamy/ts3audiobot/branch/master)|[![Build status](https://ci.appveyor.com/api/projects/status/i7nrhqkbntdhwpxp/branch/develop?svg=true)](https://ci.appveyor.com/project/Splamy/ts3audiobot/branch/develop)|
 
 ### Download
-Download the git repository with `git clone --recurse-submodules https://github.com/Splamy/TS3AudioBot.git`.
+Download the git repository with `git clone --recurse-submodules https://github.com/AuttapOnG/TS3AudioBot.git`.
 
 #### Linux
 1. Get the latest `dotnet core 3.1` version by following [this tutorial](https://docs.microsoft.com/dotnet/core/install/linux-package-managers) and choose your platform
