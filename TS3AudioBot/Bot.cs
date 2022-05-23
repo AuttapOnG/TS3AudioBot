@@ -168,9 +168,10 @@ namespace TS3AudioBot
 			ts3client.OnWhisperNoTarget += (s, e) => player.SetStall();
 
 			commandManager.RegisterCollection(MainCommands.Bag);
+			commandManager.RegisterAlias("setup", "!xecute (!list create temporary)");
 			commandManager.RegisterAlias("yt", "!xecute (!search from youtube (!param 0)) (!search play 0)");
 			commandManager.RegisterAlias("ytq", "!xecute (!search from youtube (!param 0)) (!search add 0)");
-			commandManager.RegisterAlias("ytl", "!xecute (!list import temporary (!param 0)) (!list play temporary)");
+			commandManager.RegisterAlias("ytl", "!xecute (!list clear temporary) (!list import temporary (!param 0)) (!list play temporary)");
 
 			// TODO remove after plugin rework
 			var pluginManager = Injector.GetModuleOrThrow<PluginManager>();
