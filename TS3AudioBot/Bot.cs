@@ -169,8 +169,8 @@ namespace TS3AudioBot
 
 			commandManager.RegisterCollection(MainCommands.Bag);
 			commandManager.RegisterAlias("setup", "!x (!list create temporary)");
-			commandManager.RegisterAlias("yt", "!x (!search from youtube (!param 0)) (!search play 0)");
-			commandManager.RegisterAlias("ytq", "!x (!search from youtube (!param 0)) (!search add 0)");
+			commandManager.RegisterAlias("yt", "!x (!play (!param 0))");
+			commandManager.RegisterAlias("yts", "!x (!search from youtube (!param 0)) (!search add 0)");
 			commandManager.RegisterAlias("ytl", "!x (!list clear temporary) (!list import temporary (!param 0)) (!list play temporary)");
 
 			// TODO remove after plugin rework
